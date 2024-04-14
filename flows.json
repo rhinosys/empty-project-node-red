@@ -1,1 +1,44 @@
-[]
+[
+    {
+        "id": "153deaa2f2404a3d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "508d9c4aaefce753",
+        "type": "rpi-gpio in",
+        "z": "153deaa2f2404a3d",
+        "name": "",
+        "pin": "26",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "a88e0b458f610502"
+            ]
+        ]
+    },
+    {
+        "id": "a88e0b458f610502",
+        "type": "debug",
+        "z": "153deaa2f2404a3d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 120,
+        "wires": []
+    }
+]
